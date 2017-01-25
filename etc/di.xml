@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectMangaer/etc/config.xsd">
+    <type name="ShipperHQ\Shipper\Model\Carrier\Processor\ShipperMapper">
+        <plugin name="ShipperPlugin" type="\DoIRun\ShipperHQShipper\Plugin\Processor" />
+    </type>
+</config>
